@@ -26,3 +26,12 @@ class TestCountLongNames(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+# Récap des améliorations:
+
+# Le code initial comptait les prénoms de plus de 7 lettres, mais le seuil était fixé en dur, et certains éléments manquaient de clarté.
+# Modif apportées :
+# - Ajout du paramètre threshold pour permettre des tests flexibles sans modifier la fonction.
+# - Renommage pour plus de lisibilité.
+# - Correction du if-else (syntaxe incorrecte).
+# - Ajout de plusieurs tests unitaires pour assurer la robustesse du code.
